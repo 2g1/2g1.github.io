@@ -71,7 +71,7 @@ function doLoad(){
   var cursorCost = Math.floor(10 * Math.pow(1.1,cursors));
   document.getElementById('cursorCost').innerHTML = cursorCost;
   document.getElementById('clickmachines').innerHTML = clickmachines;
-  var clickmachineCost = Math.floor(10 * Math.pow(1.1,clickmachiness));
+  var clickmachineCost = Math.floor(20 * Math.pow(1.1,clickmachiness));
   document.getElementById('clickmachineCost').innerHTML = clickmachineCost;
 };
 
