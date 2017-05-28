@@ -55,7 +55,8 @@ function updateClicks(){
 function doSave(){
   var save = {
     clicks: clicks,
-    cursors: cursors
+    cursors: cursors,
+    clickmachines: clickmachines
   };
   localStorage.setItem("save",JSON.stringify(save));
 };
