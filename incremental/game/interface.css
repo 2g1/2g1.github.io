@@ -1,0 +1,27 @@
+body{
+  background-color: #cccccc;
+}
+
+#game{
+  text-align: center;
+}
+
+#board{
+  width: 5em;
+  float: left;
+}
+
+#save-load{
+  text-align: center;
+}
+
+button {
+    background-color: #be63ff; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
