@@ -1,0 +1,54 @@
+<html>
+
+  <head>
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="interface.css" />
+  </head>
+
+  <body>
+    <div id="board">
+      <textarea id="log" rows="35">
+      </textarea>
+    </div>
+
+    <div id="game">
+      <center>
+      <font face="arial">
+      Points:
+      <span id="clicks">0</span>
+      <br />
+
+      <button onClick="manualClick(1)">Click Here</button>
+      <br><br>
+
+      <button onClick="buyCursor()">Buy AutoClicker</button>
+      <br><br>
+
+      AutoClickers: <span id="cursors">0</span>
+      <br><br>
+      Cost: <span id="cursorCost">10</span>
+      <br><br>
+
+      <button onClick="buyClickMachine()">Buy ClickMachine</button>
+      <br><br>
+
+      ClickMachines: <span id="clickmachines">0</span>
+      <br><br>
+      Cost: <span id="clickmachineCost">20</span>
+      <br><br>
+
+
+      </font>
+      </center>
+    </div>
+    <center>
+    <div id = "save-load">
+      <button onClick="doSave()">Save</button><br><br>
+      <button onClick="doLoad()">Load</button><br><br>
+    </center>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+
+</html>
