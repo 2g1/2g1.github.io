@@ -65,6 +65,7 @@ function doLoad(){
   var savegame = JSON.parse(localStorage.getItem("save"));
   if (typeof savegame.clicks !== "undefined") clicks = savegame.clicks;
   if (typeof savegame.cursors !== "undefined") cursors = savegame.cursors;
+  if (typeof savegame.clickmachines !== "undefined") clickmachines = savegame.clickmachines;
   updateClicks();
   document.getElementById('cursors').innerHTML = cursors;
   var cursorCost = Math.floor(10 * Math.pow(1.1,cursors));
