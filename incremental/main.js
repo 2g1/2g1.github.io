@@ -70,6 +70,9 @@ function doLoad(){
   document.getElementById('cursors').innerHTML = cursors;
   var cursorCost = Math.floor(10 * Math.pow(1.1,cursors));
   document.getElementById('cursorCost').innerHTML = cursorCost;
+  document.getElementById('clickmachines').innerHTML = clickmachines;
+  var clickmachineCost = Math.floor(10 * Math.pow(1.1,clickmachiness));
+  document.getElementById('clickmachineCost').innerHTML = clickmachineCost;
 };
 
 function deleteSave(){
