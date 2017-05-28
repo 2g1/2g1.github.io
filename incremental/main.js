@@ -8,7 +8,6 @@ function manualClick(value){
   updateClicks();
 };
 
-//////////////////////////////////////////////////////////////////////////////////////////////
 
 function buyCursor(){
     var cursorCost = Math.floor(10 * Math.pow(1.1,cursors));     //works out the cost of this cursor
@@ -29,7 +28,7 @@ function updateClicks(){
   //console.log("updated");
 };
 
-//////////////////////////////////////////////////////////////////////////////////////////////
+
 
 function buyClickMachine(){
     var clickmachineCost = Math.floor(20 * Math.pow(1.1,clickmachines));     //works out the cost of this cursor
@@ -51,7 +50,6 @@ function updateClicks(){
   //console.log("updated");
 };
 
-//////////////////////////////////////////////////////////////////////////////////////////////
 
 
 function doSave(){
